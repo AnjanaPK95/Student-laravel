@@ -42,6 +42,8 @@ To run both Django and Laravel servers simultaneously:
            php artisan serve --port=8001
            ```
 ### Accessing the Application
--> Laravel Application: Access your Laravel application at http://localhost:8001
--> Django API: The Django API endpoint is available at http://localhost:8000/api/students/
+
+Laravel Application: Access your Laravel application at http://localhost:8001
+
+Django API: The Django API endpoint is available at http://localhost:8000/api/students/
 
