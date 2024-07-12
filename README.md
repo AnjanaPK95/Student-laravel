@@ -29,18 +29,20 @@ To run both Django and Laravel servers simultaneously:
 
 1. Start Django Server:
 
-    -> Navigate to your Django project directory.
-    -> Start Django server:
-           ```bash
-           python manage.py runserver 8000
-           ```
+    * Navigate to your Django project directory.
+    * Start Django server:
+      
+      ```bash
+      python manage.py runserver 8000
+      ```
 2. Start Laravel Server:
 
-    -> Navigate to your Laravel project directory.
-    -> Start Laravel server on a different port (e.g., 8001)
-           ```bash
-           php artisan serve --port=8001
-           ```
+    * Navigate to your Laravel project directory.
+    * Start Laravel server on a different port (e.g., 8001)
+      
+       ```bash
+       php artisan serve --port=8001
+       ```
 ### Accessing the Application
 
 Laravel Application: Access your Laravel application at http://localhost:8001
